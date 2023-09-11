@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    div 
+    {  
+        background-color:  rgb(110, 5, 57); 
+        color: aliceblue;  
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        
+    } 
+    .container { 
+        height: 50px;
+        position: relative;
+      }
+      
+      .center {
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+      }
+</style>
+
+</head>
+<body style="background-color: rgb(209, 15, 106);"><div><form><br/>
+        <label style="padding-left: 100px;">Name:</label>
+        <input style="position:absolute;  left: 334px;"type="text" /><br/><br/></div>
+        <div>
+            <label style="padding-left: 100px;">Email:</label>
+            <input style="position:absolute; left: 334px;" type="text" /><br/><br/></div>
+        <div>
+            <label>
+                <label style="padding-left: 100px;">Password:</label> 
+                <input style="position:absolute; left: 334px;" type="password" /><br/><br/>  
+            </label>
+        </div>
+        <div>
+            <label>
+                <label style="padding-left: 100px">Phone Number:</label> 
+                <input style="position:absolute; left: 334px;" type="number" /><br/><br/>
+            </label>
+            <div>
+                <label>
+                    <label style="padding-left: 100px;padding-right: 160px;" >Gender:</label> 
+                <input   type="radio" name="gen" />Male
+                <input  type="radio" name="gen"/>Female
+                <input   type="radio" name="gen" />Other
+                </label><br/>
+            </div><br/>
+
+        <div>
+            <label style="padding-left: 100px; padding-right: 160px;" >Language</label>
+        <select>
+            <option>Hindi</option>
+            <option>Telugu</option>
+            <option>English</option>
+            <option>Kannada</option>
+        </select><br/>
+            </label><br/>
+        </div>
+        <div>
+            <label>
+                <label style="padding-left: 100px;">Zipcode:</label> 
+                <input style="position:absolute; left: 334px;"   type="number" /><br/><br/>  
+            </label>
+        </div>
+
+        <div>
+            <label>
+                <label style="padding-left: 100px;">About:</label> 
+             <textarea style="position:absolute; left: 334px;"   type="rows"  name="Address" rows="1" cols="20">
+                </textarea>
+            </label>
+        </div><br/>
+        <div class="container">
+            <div class="center">
+              <button style="padding: 7px 80px;font-size: 16px;">Register</button>
+            </div>
+          </div>
+    
+</form>
+    
+    
+</body>
+</html>

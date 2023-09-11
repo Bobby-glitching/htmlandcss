@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <style>
+        .container { 
+          height: 50px;
+          position: relative;
+        }
+        
+        .center {
+          margin: 0;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+        }
+        </style>
+</head>
+<body>
+    <h1 style="text-align: center;color: blue;">Registration form</h1>
+    <table border=1 style="border-collapse: collapse;" align="center" width="65%" >
+        <tr><th width="170px">First Name</th>
+        <td><input style="width:98%;"  type="text" /></td></tr>
+        <tr><th width="170px">Last Name</th>
+            <td><input style="width:98%;" type="text" /></td></tr>
+        <tr ><th width="170px">Email</th>
+           <td><input style="width:98%;" type="email" /></td></tr>
+        <tr><th width="170px">Password</th>
+            <td><input style="width:98%;" type="password" /></td></tr>
+        <tr><th width="170px">Re-Password</th>
+            <td><input style="width:98%;" type="password" /></td></tr>
+        <tr>
+            <th width="170px"><label>Gender:</label></th>
+            <td><input type="radio" name="gen" />Male<hr/>  
+            <input type="radio" name="gen"/>Female</td>
+        </tr>
+        <tr ><th style="width:98%;">Age:</th>
+            <td><input style="width:98%;" type="number" /></td></tr>
+        <tr ><th style="width:98%;">Phone Number</th>
+            <td><input style="width:98%;" type="number" /></td></tr>
+        <tr ><th style="width:98%;" height="90px">Address</th>
+            <td><textarea name="Address" rows="6" cols="50">
+            </textarea></td></tr> 
+
+            
+
+
+        <tr ><th width="170px">State</th>
+            <td><input style="width:98%;" type="text" /></td></tr>
+        <tr><th width="170px"><label>Country</label></th>
+        <td><select>
+            <option>Choose your country</option>
+            <option>India</option>
+            <option>USA</option>
+            <option>Canada</option>
+            <option>Japan</option>
+            <option>Russia</option>
+            <option>Wano</option>
+        </select></td></tr> 
+        <tr>
+            <th width="100%"><label>Languages Known:</label></th>
+            <td>
+            <input type="radio"  />English
+            <input type="radio"/>Hindi
+            <input type="radio"/>Kannada
+            <input type="radio"/>Telugu
+        </td>
+        </tr>
+        
+        <td colspan="2" width="100%"><input type="checkbox" id="cb1" name="cb1" value="correct">
+            <label for="cb1">Hereby I declare all the given details are true</label></td>
+        <tr><td colspan="2" style="text-align: right;">Login in to <a href="https://ethnus.com/" target="_blank">Ethnus</a>  website</td></tr>
+    </table>
+    <div class="container">
+        <div class="center">
+          <button>Register</button>
+        </div>
+      </div>
+  
+</body>
+</html>
